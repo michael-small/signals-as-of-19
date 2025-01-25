@@ -19,7 +19,11 @@ import { FormsModule } from '@angular/forms';
         }
     </select>
   `,
-  styles: ``,
+  styles: `
+    :host {
+        display: block;
+    }
+  `,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class TwoWayBindingComponent {
