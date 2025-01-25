@@ -13,6 +13,7 @@ import { JsonPipe } from '@angular/common';
     @for (ctrl of myFormArray.controls; track $index) {
         <app-child-instantiate-and-index [formCtrl]="ctrl" />
     }
+
   `,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush

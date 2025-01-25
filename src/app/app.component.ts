@@ -6,7 +6,7 @@ import { ParentFormArrayComponent } from "./forms-in-child-components/parent-for
 
 @Component({
   selector: 'app-root',
-  template: ` <app-parent-form-array />`,
+  template: ` <app-parent-form-array /> <app-parent />`,
   imports: [LinkedSignalComponent, ParentComponent, ParentFormArrayComponent],
 })
 export class AppComponent {
