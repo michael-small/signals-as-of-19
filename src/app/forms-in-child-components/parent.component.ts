@@ -16,6 +16,7 @@ import { JsonPipe } from '@angular/common';
     </form>
   `,
   styles: ``,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ParentComponent {
     myControl = new FormControl('a', {nonNullable: true});

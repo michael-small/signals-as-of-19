@@ -27,7 +27,7 @@ import { allEventsSignal, FormEventData } from '../../form-events';
       <pre>derived {{derivedValue() | json}}</pre>
     `,
     styles: ``,
-    standalone: true,
+    changeDetection: ChangeDetectionStrategy.OnPush
   })
   export class ChildInstantiateAndIndexComponent {
     #injectRef = inject(Injector);
