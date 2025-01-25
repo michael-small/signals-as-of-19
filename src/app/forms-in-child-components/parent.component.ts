@@ -20,7 +20,6 @@ import { JsonPipe } from '@angular/common';
 })
 export class ParentComponent {
     myControl = new FormControl('a', {nonNullable: true});
-
     formVal = allEventsSignal(this.myControl)
 
     ngOnInit() {
